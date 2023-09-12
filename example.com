@@ -7,8 +7,8 @@ $TTL 86400
 	86400 ;Minimum TTL
 )
 ; Specify our two nameservers
-IN	NS	dnsA
-IN	NS	dnsB
+	IN	NS	dnsA.
+	IN	NS	dnsB.
 ; Resolve nameserver hostnames to IP, replace with your two droplet IP addresses.
 dnsA	IN	A	1.1.1.1
 dnsB	IN	A	8.8.8.8
